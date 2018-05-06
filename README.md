@@ -1,10 +1,15 @@
 # Modular JS
 
-## Basics
+## Events
 
-[Events](events)
-[Hoisting](hoisting)
+[basics](events/basics.md)
+[bubbling](events/bubbling.md)
+[input events](events/input.md)
+
+## Modular JS
+
 [JavaScript Module Patterns](modules)
+[Hoisting](hoisting)
 [Webpack](webpack)
 
 ## AJAX
