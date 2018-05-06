@@ -85,6 +85,11 @@ Input tags are the most basic and most common way to enter small chunks of data.
 - placeholder
 	- some placeholder text
 	- used to prompt the user or explain the input's purpose
+- required
+    - make sure the input has a value before the form is submitted
+- pattern
+    - make sure the input has a value that matches the regex provided before the form is submitted
+
 
 ## Use a textarea element to give the user a place to enter large text blocks
 
@@ -107,25 +112,3 @@ Contains large chunks of text
 - This will affect a checkbox/radio button with an `id` that matches the label's `for` attribute value
 - Can do some neat things with CSS, labels, and form elements (e.g. CSS only carousels)
 	- https://css-tricks.com/the-checkbox-hack/
-
-# Activities
-
-## Use an input element to give the user a place to enter data
-1. Create a form
-1. Go through the list and add five inputs of the following type:
-	- text
-	- checkbox
-	- 3 radio buttons (be sure to create and set the same name attribute for all three)
-	- password
-	- datetime-local
-	- number
-	- search
-1. See what makes them different from each other
-
-## Textareas and dropdowns
-1. Create a textarea
-1. Create a dropdown that has 5 elements in it
-
-## Use a label to create a clickable space which will also affect a specified input
-1. Create a label that, when clicked, will check a checkbox
-1. Create three radio buttons and three corresponding labels. Each label should activate a different radio button
