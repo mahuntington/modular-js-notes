@@ -2,25 +2,25 @@
 
 ## Events
 
-[basics](events/basics.md)
-[bubbling](events/bubbling.md)
-[input events](events/input.md)
+* [Basics](events/basics.md)
+* [Bubbling](events/bubbling.md)
+* [Input events](events/input.md)
 
 ## Modular JS
 
-[JavaScript Module Patterns](modules)
-[Hoisting](hoisting)
-[Webpack](webpack)
+* [Module Patterns](modular_js/modules.md)
+* [Hoisting](modular_js/hoisting.md)
+* [Webpack](modular_js/webpack.md)
 
 ## AJAX
 
-[Ajax](ajax)
-[Promises](promises)
-[Mocking Ajax Requests](mocking-ajax)
+* [Basics](ajax/basics.md)
+* [Promises](ajax/promises.md)
+* [Mocking Ajax Requests](ajax/mocking.md)
 
 ## HTML 5
 
-[Forms and validation](forms)
-[Offline events](offline)
-[local storage](storage)
-[HTML5 APIs](apis)
+* [Forms and validation](html5/forms.md)
+* [Offline events](html5/offline.md)
+* [local storage](html5/storage.md)
+* [HTML5 APIs](html5/apis.md)
