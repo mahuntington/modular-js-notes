@@ -2,14 +2,13 @@
 
 ## Basics
 
-[JavaScript Basics](js-basics)
-[jQuery Basics](jquery)
 [Events](events)
+[Hoisting](hoisting)
 [JavaScript Module Patterns](modules)
+[Webpack](webpack)
 
 ## AJAX
 
-[Webpack](webpack)
 [Ajax](ajax)
 [Promises](promises)
 [Mocking Ajax Requests](mocking-ajax)
