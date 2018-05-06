@@ -17,6 +17,7 @@
 
 * [Basics](ajax/basics.md)
 * [Promises](ajax/promises.md)
+* [Cross Origin Requests](ajax/cross_origin.md)
 * [Mocking Ajax Requests](ajax/mocking.md)
 
 ## HTML 5
