@@ -3,7 +3,7 @@
 ## Douglas Crockford Style
 
 ```javascript
-const Car = (name) => {
+const Car = function(name){
     //private vars
     let gas = 100;
     const self = {}
@@ -27,7 +27,7 @@ const Car = (name) => {
     return self;
 };
 
-const myCar = Car("Awesome Car");
+const myCar = new Car("Awesome Car");
 console.log(myCar.getGasLevel())
 myCar.drive(10)
 console.log(myCar.getGasLevel())
