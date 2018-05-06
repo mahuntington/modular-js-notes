@@ -90,7 +90,6 @@ Input tags are the most basic and most common way to enter small chunks of data.
 - pattern
     - make sure the input has a value that matches the regex provided before the form is submitted
 
-
 ## Use a textarea element to give the user a place to enter large text blocks
 
 Contains large chunks of text
