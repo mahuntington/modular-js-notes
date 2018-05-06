@@ -11,6 +11,7 @@
 * [Module Patterns](modular_js/modules.md)
 * [Hoisting](modular_js/hoisting.md)
 * [Webpack](modular_js/webpack.md)
+* [Require](modular_js/require.md)
 
 ## AJAX
 
