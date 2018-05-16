@@ -167,7 +167,7 @@ Create `webpack.config.js` to simplify the terminal command
 module.exports = {
     entry: './js/index.js',
     output: {
-        filename: 'dist/bundle.js'
+        filename: 'bundle.js'
     }
 };
 ```
