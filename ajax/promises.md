@@ -11,7 +11,7 @@
 		<script type="text/javascript">
 			$(function(){
 				var promise = $.ajax({
-					url:'http://www.omdbapi.com/',
+					url:'http://www.omdbapi.com/?apikey=53aa2cd6',
 					method: "GET",
 					data: { s: "star wars" }
 				});
@@ -43,7 +43,7 @@ more succinct with extra done:
 		<script type="text/javascript">
 			$(function(){
 				$.ajax({
-					url:'http://www.omdbapi.com/',
+					url:'http://www.omdbapi.com/?apikey=53aa2cd6',
 					method: "GET",
 					data: { s: "star wars" }
 				})

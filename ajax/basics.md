@@ -25,7 +25,7 @@
 		<script type="text/javascript">
 			$(function(){
 				$.ajax({
-					url:'http://www.omdbapi.com/',
+					url:'http://www.omdbapi.com/?apikey=53aa2cd6',
 					method: "GET",
 					data: { s: "star wars" },
 					success: function(data, status, jqXHR){
