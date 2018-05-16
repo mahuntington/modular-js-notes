@@ -43,7 +43,7 @@ mkdir dist
 We can now run:
 
 ```
-./node_modules/.bin/webpack js/index.js dist/bundle.js
+./node_modules/.bin/webpack js/index.js -o dist/bundle.js
 ```
 
 Create a basic HTML file (`index.html`):
