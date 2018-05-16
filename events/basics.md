@@ -9,9 +9,7 @@
 
 ## Describe what a browser event is
 
-Interacting with the page (`events_example`)
-
-Every kind of interactivity in the browser is an event: clicks, mouseovers, key presses, scrolling, resizing, loading the page, and more.
+Every kind of interaction in the browser is an event: clicks, mouseovers, key presses, scrolling, resizing, loading the page, and more.
 
 When you interact with the browser it checks to see if there is a _listener_ for that interaction.
 
@@ -83,22 +81,10 @@ $btn.on('click', () => {
 });
 ```
 
-### Activity
-
-* Add a button to your `index.html` with an id of `btn`
-
-* Make it so that when you click the button, a console.log will appear in your browser's javascript console that says `My click event works!!!`
-
-* Whenever you make a click event, always test it with a console.log to make sure that it works.
-
-### Extra Activity
-
-* Make it so that when the button is clicked, a message will appear on the page instead of just inside the console. _example:_
-
 Create a paragraph inside the click handler:
 
 ```javascript
-const $p = ('<p>').text("Here is some text!!!!!");
+const $p = $('<p>').text("Here is some text!!!!!");
 ```
 
 Append the paragraph to the page:
@@ -107,13 +93,6 @@ Append the paragraph to the page:
 $('body').append($p);
 ```
 
-### Extra Activity
-
-* Make it so that when the button is clicked, an image will appear on the page.
-
-### Extra Activity
-
-* Experiment with setting more than one listener on the same element. How would you go about doing that?
 
 ## Use a named, referenced function as the click handler for the listener
 
@@ -200,31 +179,6 @@ CSS:
   background-color: black;
 }
 ```
-
-### Activity (15 min)
-
-* Separate an anonymous handler function from one of your event listeners, and make it a named function instead.  
-* Make it so that the named handler will run when the button is clicked. (Remember to make sure the function is _referenced_ and not _invoked_ when you set it on the listener).
-* Make it so that the click will work only after the user has clicked.
-
-**Extra Activity**
-
-Make it so each time click the button, that background-color of the page will toggle.
-
-**Extra Activity**
-
-* Add yet another button, and make it so that when this extra button is clicked, it will run the exact same handler as your previous button.
-
-**Extra Activity**
-
-* Make it so that when you click either of these buttons, an image will toggle on and off the page. There is no toggleImage method so you'll have to do it programmatically. Click once = message appears. Click again = message disappears. Click again = message reappears, etc. _Hint:_, you can use a global variable boolean and toggle it upon click.
-
-### Ask (5 min)
-
-* What is the difference between a named vs anonymous function?
-* What is the difference between an invoked vs a referenced function?
-* What is the difference between an event listener and an event handler?
-* When would you want to use a named function over an anonymous one?
 
 ### EXTRA: mouseenter and mouseleave
 
