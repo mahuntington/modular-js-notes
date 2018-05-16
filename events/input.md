@@ -41,16 +41,6 @@ $('#input-box').val()
   });
 ```
 
-### You Do
-
-* Make an input box and a button. The input should ask for the user's favorite TV show
-* When you click the button, make it so that a message appears on the page: "Hi! Your favorite show is: _show name from input_"
-
-**Extra**
-
-* Instead of a TV show name, ask the user to input the url for an image that they like
-* When the user clicks the submit button, add an `img` to the page and set the `src` attribute to the input value. Get the image to show on the page.
-
 ## Use a form's submit event
 
 With a **form** tag you can hit the enter key to submit the form data.
@@ -61,8 +51,6 @@ With a **form** tag you can hit the enter key to submit the form data.
     <input type="submit">SUBMIT</button>
 </form>
 ```
-
-app.js
 
 Set the handler on the form element instead of the submit.
 
