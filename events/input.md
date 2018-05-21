@@ -48,7 +48,7 @@ With a **form** tag you can hit the enter key to submit the form data.
 ```javascript
 <form>
     <input type="text" placeholder="enter your name" id="input-box"/>
-    <input type="submit">SUBMIT</button>
+    <input type="submit" value="SUBMIT"/>
 </form>
 ```
 
